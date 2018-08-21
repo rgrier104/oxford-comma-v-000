@@ -3,9 +3,12 @@ def oxford_comma(array)
     return array[0]
   elsif array.length = 2
     return array.join(" and ")
-  short_array = array.pop
-  short_string = array.join(", ")
-  short_string << "and #{short_array}"
+  else
+    short_array = array.pop
+    short_string = array.join(", ")
+    short_string << "and #{short_array}"
+    return short_string
+  end
 end
 
 if length = 1, string = array
