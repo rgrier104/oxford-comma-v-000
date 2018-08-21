@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     short_array = array.pop
     short_string = array.join(", ")
-    short_string << "and #{short_array}"
+    short_string << " and #{short_array}"
     return short_string
   end
 end
