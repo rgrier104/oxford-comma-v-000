@@ -10,5 +10,3 @@ def oxford_comma(array)
     return short_string
   end
 end
-
-if length = 1, string = array
